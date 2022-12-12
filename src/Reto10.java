@@ -19,7 +19,11 @@
  *
  */
 public class Reto10 {
-    public static void main(String[] args) {
+    public static boolean balanceado() {
+        return true;
+    }
 
+    public static void main(String[] args) {
+        balanceado();
     }
 }
