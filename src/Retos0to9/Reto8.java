@@ -1,3 +1,5 @@
+package Retos0to9;
+
 /*
  * Reto #8
  * DECIMAL A BINARIO

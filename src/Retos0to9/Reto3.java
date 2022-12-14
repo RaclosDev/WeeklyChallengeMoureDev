@@ -1,3 +1,5 @@
+package Retos0to9;
+
 /*
  * Reto #3
  * ¿ES UN NÚMERO PRIMO?

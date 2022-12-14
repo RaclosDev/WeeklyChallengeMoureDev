@@ -1,4 +1,4 @@
-/*
+package Retos10to19;/*
  * Reto #11
  * ELIMINANDO CARACTERES
  * Fecha publicación enunciado: 14/03/22

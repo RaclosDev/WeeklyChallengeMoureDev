@@ -1,4 +1,4 @@
-/*
+package Retos0to9;/*
  * Reto #2
  * LA SUCESIÓN DE FIBONACCI
  * Fecha publicación enunciado: 10/01/22

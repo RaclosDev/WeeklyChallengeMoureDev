@@ -1,4 +1,4 @@
-/*
+package Retos0to9;/*
  * Reto #1
  * ¿ES UN ANAGRAMA?
  * Fecha publicación enunciado: 03/01/22

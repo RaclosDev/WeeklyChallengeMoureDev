@@ -1,3 +1,5 @@
+package Retos0to9;
+
 /*
  * Reto #5
  * ASPECT RATIO DE UNA IMAGEN
