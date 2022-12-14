@@ -1,5 +1,9 @@
 package Retos0to9;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.net.URL;
+
 /*
  * Reto #5
  * ASPECT RATIO DE UNA IMAGEN
@@ -20,4 +24,27 @@ package Retos0to9;
  *
  */
 public class Reto5 {
+    public static void main(String[] args) throws Exception {
+
+        URL url = new URL("https://signage.uiowa.edu/sites/signage.uiowa.edu/files/slides/1920x1080.jpg");
+
+        BufferedImage image = ImageIO.read(url);
+        int width = image.getWidth();
+        int height = image.getHeight();
+
+        int gcd = mcd(width, height);
+        String aspectRatio = (width / gcd) + ":" + (height / gcd);
+
+        System.out.println("Aspect ratio: " + aspectRatio);
+    }
+
+    // Función para calcular el máximo común divisor de dos números
+    public static int mcd(int a, int b) {
+        if (b == 0) {
+            return a;
+        }
+        return mcd(b, a % b);
+    }
+
+
 }
