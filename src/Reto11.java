@@ -19,11 +19,27 @@
 
 public class Reto11 {
 
-    public static String cambiaCadenas(String str1, String str2){
+    public static void cambiaCadenas(String str1, String str2) {
+        StringBuilder out1 = new StringBuilder();
+        StringBuilder out2 = new StringBuilder();
 
+        // Iteramos el string
+        for (char c : str1.toCharArray()) {
+            //Si cada caracter no está en str2, lo añadimos
+            if (!str2.contains(Character.toString(c))) out1.append(c);
+        }
+
+        for (char c : str2.toCharArray()) {
+            if (!str1.contains(Character.toString(c))) out2.append(c);
+        }
+
+        System.out.println("out1: " + out1);
+        System.out.println("out2: " + out2);
     }
 
     public static void main(String[] args) {
-        cambiaCadenas(str1, str2);
+        String str1 = "Mi nombre es Carlos";
+        String str2 = "Y mi apodo es Raclos";
+        cambiaCadenas(str1.toLowerCase(), str2.toLowerCase());
     }
 }
