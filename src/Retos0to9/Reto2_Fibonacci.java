@@ -18,7 +18,7 @@ package Retos0to9;/*
  */
 
 
-public class Reto2 {
+public class Reto2_Fibonacci {
 
     public static void fib() {
         long n = 0;     // n-2

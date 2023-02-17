@@ -17,7 +17,7 @@ package Retos10to19;/*
  *
  */
 
-public class Reto11 {
+public class Reto11_CambiaCadenas {
 
     public static void cambiaCadenas(String str1, String str2) {
         StringBuilder out1 = new StringBuilder();

@@ -23,7 +23,7 @@ import java.net.URL;
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-public class Reto5 {
+public class Reto5_AspectRatioImagen {
     public static void main(String[] args) throws Exception {
 
         URL url = new URL("https://signage.uiowa.edu/sites/signage.uiowa.edu/files/slides/1920x1080.jpg");

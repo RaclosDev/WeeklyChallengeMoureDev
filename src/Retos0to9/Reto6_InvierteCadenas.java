@@ -17,7 +17,7 @@ package Retos0to9;
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-public class Reto6 {
+public class Reto6_InvierteCadenas {
 
     public static String invierte(String string) {
 

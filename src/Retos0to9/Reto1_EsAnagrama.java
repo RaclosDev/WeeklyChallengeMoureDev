@@ -21,7 +21,7 @@ package Retos0to9;/*
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Reto1 {
+public class Reto1_EsAnagrama {
 
     public static boolean isAnagrama(String s1, String s2) {
 

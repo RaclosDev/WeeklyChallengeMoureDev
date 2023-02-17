@@ -17,7 +17,7 @@ package Retos0to9;
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-public class Reto3 {
+public class Reto3_EsPrimo {
 
     public static boolean esPrimo(int n) {
 

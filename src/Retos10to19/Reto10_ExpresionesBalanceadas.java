@@ -20,7 +20,7 @@ package Retos10to19;
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-public class Reto10 {
+public class Reto10_ExpresionesBalanceadas {
     public static boolean balanceado() {
         return true;
     }

@@ -22,7 +22,7 @@ import java.util.Map;
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-public class Reto9 {
+public class Reto9_CodigoMorseTraductor {
 
     // Mapa que asocia cada caracter del alfabeto con su código Morse
     private static final Map<Character, String> morseCode = new HashMap<>();

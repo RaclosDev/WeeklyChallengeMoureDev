@@ -15,7 +15,7 @@ package Retos10to19;
  */
 
 
-public class Reto12 {
+public class Reto12_Palindromos {
 
     private static boolean esPalindromo(String texto) {
 

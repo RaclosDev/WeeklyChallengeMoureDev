@@ -18,7 +18,7 @@ package Retos0to9;/*
  *
  */
 
-public class Reto4 {
+public class Reto4_AreaPoligonos {
 
     public interface Polygon {
         void calcArea();

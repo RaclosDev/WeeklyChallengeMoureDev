@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-public class Reto7 {
+public class Reto7_ConteoPalabras {
 
     public static void cuentaPalabras(String texto) {
         Map<String, Integer> hashMap = new HashMap<>();

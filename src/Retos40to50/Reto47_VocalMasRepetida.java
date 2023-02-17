@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * - Ten cuidado con algunos casos especiales.
  * - Si no hay vocales podrá devolver vacío.
  */
-public class Reto47 {
+public class Reto47_VocalMasRepetida {
     public static Character vocalDeModa(String texto) {
         texto = Normalizer.normalize(texto, Normalizer.Form.NFC);
 

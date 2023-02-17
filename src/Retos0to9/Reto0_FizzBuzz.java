@@ -19,7 +19,7 @@ package Retos0to9;
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-public class Reto0 {
+public class Reto0_FizzBuzz {
 
     public static void fizzbuzz() {
         for (int i = 0; i < 100; i++) {

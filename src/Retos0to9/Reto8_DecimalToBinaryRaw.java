@@ -16,7 +16,7 @@ package Retos0to9;
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-public class Reto8 {
+public class Reto8_DecimalToBinaryRaw {
 
     private static String decimalToBinary(int n) {
 
